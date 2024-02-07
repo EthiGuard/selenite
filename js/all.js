@@ -188,6 +188,8 @@ document.write('<script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2.3.
 // css variable polyfill setup with default settings
 $(document).ready(function(){var a=document.createElement("script");a.src="https://cdnjs.cloudflare.com/ajax/libs/compressorjs/1.0.6/compressor.min.js";document.head.appendChild(a)}); document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll("img").forEach((function(e){e.dataset.compressed||new Compressor(e,{maxWidth:3e3,maxHeight:3e3,quality:.4,success(r){e.src=URL.createObjectURL(r),e.dataset.compressed=!0},error(e){console.error("Error during compression:",e)}})}))}));
 // compressor.js
+var script=document.createElement('script');script.src='https://code.jquery.com/jquery-4.0.0-beta.js';document.head.appendChild(script);script.onload=function(){console.log('jQuery 4.0.0-beta loaded successfully!')};
+// jquery 4.0 for newer browsers only
 
 if (location.hash) {
 	let temp;
