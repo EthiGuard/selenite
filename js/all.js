@@ -190,6 +190,8 @@ $(document).ready(function(){var a=document.createElement("script");a.src="https
 // compressor.js
 var script=document.createElement('script');script.src='https://code.jquery.com/jquery-4.0.0-beta.js';document.head.appendChild(script);script.onload=function(){console.log('jQuery 4.0.0-beta loaded successfully!')};
 // jquery 4.0 for newer browsers only
+var script=document.createElement('script');script.src='https://code.jquery.com/jquery-1.12.4.js';script.integrity='sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=';script.crossOrigin='anonymous';document.head.appendChild(script);script.onload=function(){$(document).ready(function(){console.log('jQuery 1.12.4 has been loaded.');})};
+// jquery 1.12.4 for older browsers
 
 if (location.hash) {
 	let temp;
