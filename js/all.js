@@ -192,6 +192,8 @@ var script=document.createElement('script');script.src='https://code.jquery.com/
 // jquery 4.0 for newer browsers only
 var script=document.createElement('script');script.src='https://code.jquery.com/jquery-1.12.4.js';script.integrity='sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=';script.crossOrigin='anonymous';document.head.appendChild(script);script.onload=function(){$(document).ready(function(){console.log('jQuery 1.12.4 has been loaded.');})};
 // jquery 1.12.4 for older browsers
+  document.write("<script src="https://cdnjs.cloudflare.com/ajax/libs/webshim/1.16.0/minified/polyfiller.js" integrity="sha512-rkRXZsv4UxDC5Lik3bWgYCKSAH2B8Kbom+jxAv9UMS77A8lZERmqbgFgiO5WtMicwZi/RpKYBO/RSCoWd+g30Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>");
+// webshim for extra jquery compat
 
 if (location.hash) {
 	let temp;
