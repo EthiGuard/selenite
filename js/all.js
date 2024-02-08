@@ -197,7 +197,7 @@ scriptElement.src = "https://cdnjs.cloudflare.com/ajax/libs/webshim/1.16.0/minif
 scriptElement.async = !0,
 document.head.appendChild(scriptElement),
 scriptElement.onload = function() {
-    console.log("Webshim is loaded!"
+    console.log("Webshim is loaded!";
   // webshim for extra jquery compat
 
 if (location.hash) {
