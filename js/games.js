@@ -30,7 +30,7 @@ function loadGames(data) {
   gamelist = data;
   for (var i = 0; i < data.length; i++) {
     var _$element = $("<div>").attr({
-      class: "game",
+      "class": "game",
       id: data[i].directory,
       recommended: data[i].recommended
     }).data("recommended", data[i].recommended).append($("<img>").prop({
@@ -39,7 +39,7 @@ function loadGames(data) {
     })).append($("<h1>").text(data[i].name)).append($("<img>").prop({
       src: "img/star.svg",
       alt: "star",
-      class: "star"
+      "class": "star"
     }));
     if (starredgames.includes(data[i].directory)) {
       _$element.find("img.star").attr("id", "starred");
@@ -98,16 +98,16 @@ function loadGames(data) {
           pinnedarraynodes = pinnedarray[_i].childNodes;
           pinnedarraynodes = _toConsumableArray(pinnedarraynodes);
           var _$element2 = $("<div>").prop({
-            class: "game",
+            "class": "game",
             id: pinnedarray[_i].id
           }).append($("<img>").prop({
             src: pinnedarraynodes[0].src,
             alt: pinnedarraynodes[0].alt,
-            class: "gameicon"
+            "class": "gameicon"
           })).append($("<h1>").text(pinnedarraynodes[1].innerHTML)).append($("<img>").prop({
             src: "img/star-fill.svg",
             alt: "star",
-            class: "star",
+            "class": "star",
             id: "starred"
           }));
           $("#pinned").append(_$element2);
@@ -135,7 +135,7 @@ function loadGames(data) {
   });
   $(document).on("click", "#game img .star", function (event) {
     $(this).prop({
-      class: "material-symbols-outlined fill"
+      "class": "material-symbols-outlined fill"
     });
   });
 }
