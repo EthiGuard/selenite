@@ -1,4 +1,10 @@
 [
+	{
+		"name": "Music Player",
+		"image": "cover.svg",
+		"directory": "music",
+		"recommended": "1"
+	},
 		{
 		"name": "Minecraft Games",
 		"image": "cover.svg",
