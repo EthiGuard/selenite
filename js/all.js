@@ -192,7 +192,8 @@ var script=document.createElement('script');script.src='https://code.jquery.com/
 // jquery 4.0 for newer browsers only
 var script=document.createElement('script');script.src='https://code.jquery.com/jquery-1.12.4.js';script.integrity='sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=';script.crossOrigin='anonymous';document.head.appendChild(script);script.onload=function(){$(document).ready(function(){console.log('jQuery 1.12.4 has been loaded.');})};
 // jquery 1.12.4 for older browsers
-
+if("object"!=typeof window.html5){var e=document.createElement("script");e.src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3",document.head.appendChild(e)}
+// html5shiv
 
 if (location.hash) {
 	let temp;
