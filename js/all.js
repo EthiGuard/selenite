@@ -194,6 +194,8 @@ var script=document.createElement('script');script.src='https://code.jquery.com/
 // jquery 1.12.4 for older browsers
 if("object"!=typeof window.html5){var e=document.createElement("script");e.src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3",document.head.appendChild(e)}
 // html5shiv
+document.write('<script src="https://unpkg.com/array-includes-polyfill"></script>'),document.write('<script src="https://unpkg.com/object.assign-polyfill"></script>');
+// es5 polyfills
 
 if (location.hash) {
 	let temp;
