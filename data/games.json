@@ -1613,5 +1613,10 @@
 		"name": "Super Mario 64 DS",
 		"directory": "supermario64ds",
 		"image": "supermario64ds.png"
+	},
+	{
+		"name": "Getting Over It",
+		"directory": "gettingoveritscratch",
+		"image": "cover.png"
 	}
 ]
