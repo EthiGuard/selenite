@@ -6,13 +6,13 @@
           content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <title>Bit Planes</title>
-<link href="styles.css?d7118c4f7ffc03840b96" rel="stylesheet"></head>
+<link href="styles.css?5d2872322fef463c838c" rel="stylesheet"></head>
 <body>
 <main>
     <section class="welcome">
-<!--        <div class="ribbon right green">-->
-<!--            <a href="https://github.com/antonmedv/bit-planes" tabindex="-1">Fork me on GitHub</a>-->
-<!--        </div>-->
+        <div class="ribbon right black">
+            <a href="https://discord.gg/XhzWf6Z48y" tabindex="-1" target="_blank">Join Discord server</a>
+        </div>
         <h1>
             <i class="logo"></i>
             Bit Planes
@@ -32,21 +32,40 @@
             <label>
                 <input type="text" name="nickname" placeholder="Nickname">
             </label>
-            <p>
-                <strong>Game mode:</strong>
-            </p>
             <div class="game-modes">
-                <div>
-                    <label title="Everyone against everyone."><input type="radio" name="mode" value="death-match" checked autofocus> Death match</label>
+                <div class="game-modes-column">
+                    <p>
+                        <strong>Game modes:</strong>
+                    </p>
+                    <div>
+                        <label title="Everyone against everyone."><input type="radio" name="mode" value="death-match"
+                                                                         checked autofocus> Death match</label>
+                    </div>
+                    <div>
+                        <label title="Fight between teams."><input type="radio" name="mode" value="teams"> Teams</label>
+                    </div>
+                    <div>
+                        <label title="One on one duel."><input type="radio" name="mode" value="duel"> Duel</label>
+                    </div>
+                    <div>
+                        <label title="Survive with a waives of enemies."><input type="radio" name="mode"
+                                                                                value="survival"> Survival</label>
+                    </div>
                 </div>
-                <div>
-                    <label title="Fight between teams."><input type="radio" name="mode" value="teams"> Teams</label>
-                </div>
-                <div>
-                    <label title="One on one duel."><input type="radio" name="mode" value="duel"> Duel</label>
-                </div>
-                <div>
-                    <label title="Survive with a waives of enemies."><input type="radio" name="mode" value="survival"> Survival</label>
+                <div class="game-modes-column">
+                    <p>
+                        <strong>Fun modes:</strong>
+                    </p>
+                    <div>
+                        <label title="Two big teams against each other."><input type="radio" name="mode" value="swarm">
+                            Swarm</label>
+                    </div>
+                    <div>
+                        <label title="Total domination."><input type="radio" name="mode" value="domination"> Domination</label>
+                    </div>
+                    <div>
+                        <label title="Revenge of cows."><input type="radio" name="mode" value="revenge"> Revenge</label>
+                    </div>
                 </div>
             </div>
             <div class="action">
@@ -92,21 +111,31 @@
 <canvas id="canvas"></canvas>
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+<script type="text/javascript">
+  (function (m, e, t, r, i, k, a) {
+    m[i] = m[i] || function () {
+      (m[i].a = m[i].a || []).push(arguments)
+    }
+    m[i].l = 1 * new Date()
+    for (var j = 0; j < document.scripts.length; j++) {
+      if (document.scripts[j].src === r) {
+        return
+      }
+    }
+    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+  })
+  (window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym')
 
-    ym(94977381, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-    });
+  ym(94977381, 'init', {
+    clickmap: true,
+    trackLinks: true,
+    accurateTrackBounce: true,
+  })
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/94977381" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/94977381" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
 
-<script type="text/javascript" src="index.js?d7118c4f7ffc03840b96"></script></body>
+<script type="text/javascript" src="index.js?5d2872322fef463c838c"></script></body>
 </html>

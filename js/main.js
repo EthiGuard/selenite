@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		$.get("https://raw.githubusercontent.com/skysthelimitt/selenite-optimized/main/build/bookmark.txt", function (data) {
 			$(".seleniteminified").prop({ href: data });
 		});
-		$.get("https://raw.githubusercontent.com/car-axle-client/car-axle-client/v9/dist/build.js", function (data) {
+		$.get("https://raw.githubusercontent.com/car-axle-client/car-axle-client/v10/dist/build.js", function (data) {
 			$(".caraxle").prop({ href: `javascript:${encodeURI(data)}` });
 		});
 	}
