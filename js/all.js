@@ -199,3 +199,23 @@ $(document).ready(function(){
   });
   // core js
 
+// fps counter
+function fps() {
+    var script = document.createElement('script');
+    script.onload = function() {
+        var stats = new Stats();
+        document.body.appendChild(stats.dom);
+        requestAnimationFrame(function loop() {
+            stats.update();
+            requestAnimationFrame(loop);
+        });
+        
+        localStorage.setItem('fps', true);
+    };
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js';
+    document.head.appendChild(script);
+}
+
+if (localStorage.getItem('fps')) {
+    fps();
+}
