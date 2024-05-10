@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Skateboarding Simulator",
+		"image": "cover.svg",
+		"directory": "skate"
+	},
+	{
 		"name": "CrossNRoad",
 		"image": "cover.svg",
 		"directory": "crossnroad"
