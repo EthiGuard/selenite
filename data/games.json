@@ -1,9 +1,13 @@
 [
 	{
+		"name": "Flappy 2048",
+		"image": "cover.svg",
+		"directory": "flap"
+	},
+	{
 		"name": "9007199254740992",
 		"image": "cover.svg",
 		"directory": "9007199254740992"
-
 	},
 	{
 		"name": "1",
