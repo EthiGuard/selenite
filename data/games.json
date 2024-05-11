@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Headcase",
+		"image": "cover.svg",
+		"directory": "headcase"
+	},
+	{
 		"name": "Bubble Shooter",
 		"image": "cover.svg",
 		"directory": "bub"
