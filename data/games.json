@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Sift Heads 1",
+		"image": "cover.svg",
+		"directory": "sift"
+	},
+	{
 		"name": "Good Guys vs Bad Guys",
 		"image": "cover.svg",
 		"directory": "good"
