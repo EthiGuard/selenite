@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Super Stock Take",
+		"image": "cover.svg",
+		"directory": "super"
+	},
+	{
 		"name": "Plunger",
 		"image": "cover.svg",
 		"directory": "plu"
