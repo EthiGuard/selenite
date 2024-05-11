@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Wheely 1",
+		"image": "cover.svg",
+		"directory": "whe"
+	},
+	{
 		"name": "Sift Heads 1",
 		"image": "cover.svg",
 		"directory": "sift"
