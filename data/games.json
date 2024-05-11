@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Talking Tom Cat 1",
+		"image": "cover.svg",
+		"directory": "tom1"
+	},
+	{
 		"name": "Talking Tom Cat 2",
 		"image": "cover.svg",
 		"directory": "tom2"
