@@ -1,5 +1,10 @@
 [
 	{
+		"name": "GodoBlocks", 
+		"directory": "godo",
+		"image": "cover.svg"
+	},
+	{
 		"name": "Ruffle", 
 		"directory": "ruffle",
 		"image": "cover.svg"
