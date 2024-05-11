@@ -36,6 +36,7 @@ function loadGames(data) {
 				$("<img>").prop({
 					src: "semag/" + data[i].directory + "/" + data[i].image,
 					alt: data[i].name + " logo",
+					loading: "lazy"
 				})
 			)
 			.append($("<h1>").text(data[i].name))
