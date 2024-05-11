@@ -1,5 +1,10 @@
 [
 	{
+		"name": "WASM Doom",
+		"image": "cover.svg",
+		"directory": "wasm-doom"
+	},
+	{
 		"name": "Tom Loves Angela",
 		"image": "cover.svg",
 		"directory": "angelatom"
