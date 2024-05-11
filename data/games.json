@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Mutiny",
+		"image": "cover.svg",
+		"directory": "mutiny"
+	},
+	{
 		"name": "Snotput",
 		"image": "cover.svg",
 		"directory": "snot"
