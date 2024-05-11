@@ -212,7 +212,7 @@ function fps() {
         
         localStorage.setItem('fps', true);
     };
-    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js';
+    script.src = 'https://cdn.jsdelivr.net/gh/mrdoob/stats.js@master/build/stats.min.js';
     document.head.appendChild(script);
 }
 
