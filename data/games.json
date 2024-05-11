@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Meteor Game",
+		"image": "cover.svg",
+		"directory": "meteor"
+	},
+	{
 		"name": "Skateboarding Simulator",
 		"image": "cover.svg",
 		"directory": "skate"
