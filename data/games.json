@@ -2,7 +2,7 @@
 	{
 		"name": "WASM Doom",
 		"image": "cover.svg",
-		"directory": "wasm-doom"
+		"directory": "doom-wasm"
 	},
 	{
 		"name": "Tom Loves Angela",
