@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Robo Run",
+		"image": "cover.svg",
+		"directory": "robo"
+	},
+	{
 		"name": "Smash Karts",
 		"image": "cover.svg",
 		"directory": "smash"
