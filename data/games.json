@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Skywire VIP (Extended)",
+		"image": "cover.svg",
+		"directory": "sky"
+	},
+	{
 		"name": "Super Stock Take",
 		"image": "cover.svg",
 		"directory": "super"
