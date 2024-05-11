@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Nitrome Must Die",
+		"image": "cover.svg",
+		"directory": "nitme"
+	},
+	{
 		"name": "Robo Run",
 		"image": "cover.svg",
 		"directory": "robo"
