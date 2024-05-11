@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Calamari",
+		"image": "cover.svg",
+		"directory": "cal"
+	},
+	{
 		"name": "Nitrome Must Die",
 		"image": "cover.svg",
 		"directory": "nitme"
