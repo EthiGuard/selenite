@@ -198,24 +198,3 @@ $(document).ready(function(){
     $.getScript('https://cdnjs.cloudflare.com/ajax/libs/core-js/3.37.0/minified.js');
   });
   // core js
-
-// fps counter
-function fps() {
-    var script = document.createElement('script');
-    script.onload = function() {
-        var stats = new Stats();
-        document.body.appendChild(stats.dom);
-        requestAnimationFrame(function loop() {
-            stats.update();
-            requestAnimationFrame(loop);
-        });
-        
-        localStorage.setItem('fps', true);
-    };
-    script.src = 'https://cdn.jsdelivr.net/gh/mrdoob/stats.js@master/build/stats.min.js';
-    document.head.appendChild(script);
-}
-
-if (localStorage.getItem('fps')) {
-    fps();
-}
