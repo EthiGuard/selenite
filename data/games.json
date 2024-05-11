@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Bubble Shooter",
+		"image": "cover.svg",
+		"directory": "bub"
+	},
+	{
 		"name": "Skywire VIP (Extended)",
 		"image": "cover.svg",
 		"directory": "sky"
