@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Plunger",
+		"image": "cover.svg",
+		"directory": "plu"
+	},
+	{
 		"name": "Gunbrick",
 		"image": "cover.svg",
 		"directory": "brick"
