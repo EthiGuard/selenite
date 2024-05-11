@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Gunbrick",
+		"image": "cover.svg",
+		"directory": "brick"
+	},
+	{
 		"name": "Calamari",
 		"image": "cover.svg",
 		"directory": "cal"
