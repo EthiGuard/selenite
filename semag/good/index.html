@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTL6D79ZZ4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BTL6D79ZZ4');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Guys vs Bad Boys Unblocked - GNHUSTGames</title>
+    <meta name="description" content="Engage in intense showdowns in Good Guys vs Bad Boys Unblocked, a thrilling multiplayer shooter game where players must choose their side and battle it out for supremacy. Formulate tactics, wield powerful weapons, and dominate the battlefield in this action-packed clash between good and evil.">
+    <meta property="og:image" content="https://gnhustgames.github.io/assets/imageGame/goodguysvsbadboys.jpg">
+    <link rel="stylesheet" href="https://gnhustgames.github.io/css/logo.css">
+    <link rel="icon" href="logo.jpg">
+    <style>
+        button {
+            min-width: 100%;
+            font-family: inherit;
+            appearance: none;
+            border: 0;
+            border-radius: 5px;
+            background: #2c2c2c;
+            color: #fff;
+            padding: 18px 46px;
+            font-size: 28px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background: #3f3f3f;
+        }
+        
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 0 4px #cbd6ee;
+        }
+        
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./custom_themes/289749986412026919/files/style.css">
+    <script src="./custom_themes/289749986412026919/files/UnityProgress.js"></script>
+    <script src="./unityloader18.js"></script>
+</head>
+
+
+
+
+
+<body>
+    <div class="logo-homepage" id="logo" style="position: absolute; bottom:40%">
+        <a href="https://gnhustgames.github.io/"><button>
+    <p>GNHUST Games</p>
+    <img src="https://gnhustgames.github.io/assets/imageLogo/logo.jpg" alt="">
+</button></a>
+    </div>
+    <script>
+        function checkScreenSize() {
+            var hiddenBlock = document.querySelector('#logo');
+            if (window.innerWidth > 1200) {
+                hiddenBlock.style.display = "block";
+            } else {
+                hiddenBlock.style.display = "none";
+            }
+        }
+
+        // Add an event listener to check the size whenever the window is load or réize
+        window.addEventListener('load', checkScreenSize);
+        window.addEventListener('resize', checkScreenSize);
+        // Initial check when the page loads
+        checkScreenSize();
+    </script>
+    <script type="text/javascript">
+        var gameInstance;
+
+        window.onload = function() {
+            gameInstance = UnityLoader.instantiate("gameContainer", "./xtreme_good_guys_vs_bad.json", {
+                onProgress: UnityProgress,
+                Module: {
+                    onRuntimeInitialized: function() {
+                        UnityProgress(gameInstance, "complete")
+                    }
+                }
+            });
+        }
+    </script>
+
+    <div class="webgl-content">
+
+        <div id="gameContainer" style="width: 100%; height: 100%; margin: auto"></div>
+
+    </div>
+</body>
+
+
+</html>
