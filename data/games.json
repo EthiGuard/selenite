@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Smash Karts",
+		"image": "cover.svg",
+		"directory": "smash"
+	},
+	{
 		"name": "Meteor Game",
 		"image": "cover.svg",
 		"directory": "meteor"
