@@ -1,8 +1,13 @@
 [
 	{
+		"name": "Glassworks",
+		"image": "cover.svg",
+		"directory": "glass"
+	},
+	{
 		"name": "Mutiny",
 		"image": "cover.svg",
-		"directory": "mutiny"
+		"directory": "mut"
 	},
 	{
 		"name": "Snotput",
