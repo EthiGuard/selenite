@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Good Guys vs Bad Guys",
+		"image": "cover.svg",
+		"directory": "good"
+	},
+	{
 		"name": "Glassworks",
 		"image": "cover.svg",
 		"directory": "glass"
