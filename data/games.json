@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Run 3 Editor",
+		"image": "cover.svg",
+		"directory": "editor"
+	},
+	{
 		"name": "Train Surfers",
 		"image": "cover.svg",
 		"directory": "train"
