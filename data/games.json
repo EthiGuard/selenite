@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Train Surfers",
+		"image": "cover.svg",
+		"directory": "train"
+	},
+	{
 		"name": "Fruit Cuts 3D",
 		"image": "cover.svg",
 		"directory": "fruit"
