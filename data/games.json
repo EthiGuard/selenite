@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Grand Shift Auto",
+		"image": "cover.svg",
+		"directory": "gsa"
+	},
+	{
 		"name": "Unfair Mario",
 		"image": "cover.svg",
 		"directory": "unfmar"
