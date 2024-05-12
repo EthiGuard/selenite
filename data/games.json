@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Unfair Mario",
+		"image": "cover.svg",
+		"directory": "unfmar"
+	},
+	{
 		"name": "WASM Doom",
 		"image": "cover.svg",
 		"directory": "doom-wasm"
