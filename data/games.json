@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Fruit Cuts 3D",
+		"image": "cover.svg",
+		"directory": "fruit"
+	},
+	{
 		"name": "Grand Shift Auto",
 		"image": "cover.svg",
 		"directory": "gsa"
