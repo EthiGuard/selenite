@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Bus & Subway Runner",
+		"image": "cover.svg",
+		"directory": "subway"
+	},
+	{
 		"name": "Drift King",
 		"image": "cover.svg",
 		"directory": "king"
