@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Snowball.io",
+		"image": "cover.svg",
+		"directory": "snow"
+	},
+	{
 		"name": "Balloon Run",
 		"image": "cover.svg",
 		"directory": "bal"
