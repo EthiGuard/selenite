@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Pako Highway",
+		"image": "cover.svg",
+		"directory": "pako"
+	},
+	{
 		"name": "Pixel Gun 3D",
 		"image": "cover.svg",
 		"directory": "pix"
