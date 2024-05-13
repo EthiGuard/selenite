@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Pixel Gun 3D",
+		"image": "cover.svg",
+		"directory": "pix"
+	},
+	{
 		"name": "Snowball.io",
 		"image": "cover.svg",
 		"directory": "snow"
