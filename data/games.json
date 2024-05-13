@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Balloon Run",
+		"image": "cover.svg",
+		"directory": "bal"
+	},
+	{
 		"name": "Redball 2",
 		"image": "cover.svg",
 		"directory": "rb2"
