@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Drift King",
+		"image": "cover.svg",
+		"directory": "king"
+	},
+	{
 		"name": "Pako Highway",
 		"image": "cover.svg",
 		"directory": "pako"
