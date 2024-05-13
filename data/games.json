@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Redball 2",
+		"image": "cover.svg",
+		"directory": "rb2"
+	},
+	{
 		"name": "Gunfest",
 		"image": "cover.svg",
 		"directory": "fest"
