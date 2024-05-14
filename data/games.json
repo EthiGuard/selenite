@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Pizza Delivery Parking",
+		"image": "cover.svg",
+		"directory": "piza"
+	},
+	{
 		"name": "Mine Blocks",
 		"image": "cover.svg",
 		"directory": "minors"
