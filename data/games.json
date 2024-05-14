@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Spongebob: Snowpants",
+		"image": "cover.svg",
+		"directory": "sponge"
+	},
+	{
 		"name": "Pizza Delivery Parking",
 		"image": "cover.svg",
 		"directory": "piza"
