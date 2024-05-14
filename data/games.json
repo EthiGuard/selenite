@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Mine Blocks",
+		"image": "cover.svg",
+		"directory": "minors"
+	},
+	{
 		"name": "Wubzzy's Amazing Adventure",
 		"image": "cover.svg",
 		"directory": "wubz"
