@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Brotato 1.9.0",
+		"image": "cover.svg",
+		"directory": "b2"
+	},
+	{
 		"name": "Brotato 2.0.0 BETA",
 		"image": "cover.svg",
 		"directory": "b2"
